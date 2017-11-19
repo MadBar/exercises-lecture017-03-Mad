@@ -1,77 +1,82 @@
 package com.exemple.computer.classes;
 
-
-//import java.util.*;
-
 import com.exemple.computer.interfaces.ComputerOperations;
 
 /**
  * 
  */
-public class Computer implements ComputerOperations{
+public class Computer implements ComputerOperations {
 
-    private String className;
-    
-    /**
-     * Default constructor
-     */
-    
-    public Computer() {
+	private String className;
 
-    }
+	/**
+	 * Default constructor
+	 */
+	public Computer() {
+		this.className = "Computer";
+	}
 
-    /**
-     * @param className 
-     * @return
-     */
-    public void setClassName(String className) {
+	/**
+	 * @param className
+	 * @return
+	 */
+	public void setClassName(String className) {
+		this.className = className;
+	}
 
-    }
+	/**
+	 * @return
+	 */
+	public String getClassName() {
+		return this.className;
+	}
 
-    /**
-     * @return
-     */
-    public String getClassName() {
-        return "";
-    }
+	/**
+	 * @return
+	 */
+	public void turnOn() {
+		System.out.println(getClassName() + " is now turned on!");
 
-    /**
-     * @return
-     */
-    public void turnOn() {
-    }
+	}
 
-    /**
-     * @return
-     */
-    public void turnOff() {
-    }
+	/**
+	 * @return
+	 */
+	public void turnOff() {
+		System.out.println(getClassName() + " is now turned off!");
 
-    /**
-     * @return
-     */
-    public void performDownload() {
-    }
+	}
 
-    /**
-     * @return
-     */
-    public void performUpload() {
+	/**
+	 * @return
+	 */
+	public void performDownload() {
+		System.out.println(getClassName() + " is now downloading!");
 
-    }
+	}
 
-    /**
-     * @return
-     */
-    public void playVideo() {
+	/**
+	 * @return
+	 */
+	public void performUpload() {
+		System.out.println(getClassName() + " is now performing an upload!");
 
-    }
+	}
 
-    /**
-     * @return
-     */
-    public void playMusic() {
+	/**
+	 * @return
+	 */
+	public void playVideo() {
+		System.out.println(getClassName() + " is now playing a video!");
 
-    }
+	}
+
+	/**
+	 * @return
+	 */
+	public void playMusic() {
+		System.out.println(getClassName() + " is now playing music!");
+
+	}
 
 }

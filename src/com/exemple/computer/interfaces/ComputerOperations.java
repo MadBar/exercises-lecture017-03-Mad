@@ -1,4 +1,5 @@
 package com.exemple.computer.interfaces;
+
 public interface ComputerOperations {
 
 	/**
