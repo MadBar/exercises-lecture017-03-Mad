@@ -8,7 +8,7 @@ public class StationaryComputer extends Computer {
     /**
      * Default constructor
      */
-    public void StationaryComputer() {
+    public StationaryComputer() {
 
     }
 

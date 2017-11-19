@@ -16,7 +16,7 @@ public class Computer implements ComputerOperations{
      * Default constructor
      */
     
-    public void Computer() {
+    public Computer() {
 
     }
 

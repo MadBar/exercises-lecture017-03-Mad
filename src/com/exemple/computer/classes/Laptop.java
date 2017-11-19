@@ -5,7 +5,7 @@ public class Laptop extends Computer {
     /**
      * Default constructor
      */
-    public void Laptop() {
+    public Laptop() {
 
     }
 
